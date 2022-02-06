@@ -1,0 +1,23 @@
+body{
+    background-image: linear-gradient(rgb(208, 236, 255),rgb(146, 211, 255),rgb(208, 236, 255));
+}
+
+#snapshot_button{
+    font-size: 50px;
+    font-family: 'Tangerine', cursive;
+    color: aliceblue;
+    background-color: darkblue;
+    border-radius: 10px;
+    border-style: none;
+    transition: background-color 1s, transform 1s;
+}
+
+#snapshot_button:hover{
+    background-color: cornflowerblue;
+    transform:scale(1.5)
+}
+
+#header{
+    font-family: 'Imperial Script', cursive;
+    font-size: 60px;
+}
